@@ -1,0 +1,13 @@
+{
+  "data" : [
+    {"nodeName": "A","adjacentNodes": [{"nodeName": "C", "distance": 2}]},
+    {"nodeName": "B", "adjacentNodes": [{"nodeName": "D", "distance": 4}, {"nodeName": "E", "distance": 7}]},
+    {"nodeName": "C", "adjacentNodes" :[{"nodeName":"A", "distance":2}, {"nodeName":"D", "distance": 1}, {"nodeName":"F", "distance": 4}]},
+    {"nodeName":"D", "adjacentNodes" :[{"nodeName":"B", "distance":4}, {"nodeName":"C", "distance":1}, {"nodeName":"F", "distance":1}, {"nodeName":"G", "distance":2}]},
+    {"nodeName":"E", "adjacentNodes" :[{"nodeName":"B","distance": 7}, {"nodeName":"H","distance": 10}]},
+    {"nodeName":"F", "adjacentNodes": [{"nodeName":"C","distance": 4}, {"nodeName":"D","distance": 1}, {"nodeName":"G","distance": 3}]},
+    {"nodeName":"G", "adjacentNodes":[{"nodeName":"D", "distance": 2},{"nodeName":"F", "distance": 3},{"nodeName":"H", "distance": 4}]},
+    {"nodeName":"H", "adjacentNodes":[{"nodeName":"E", "distance": 10},  {"nodeName":"G","distance": 4}]}
+  ]
+}
+
